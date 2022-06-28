@@ -1,0 +1,14 @@
+
+amazon:
+  dynamodb:
+    localhost: true
+    tablePrefix: dev
+  aws:
+    accessKey: key
+    secretKey: key
+    region: us-east-1
+    endpoint: http://localhost:8000/
+
+server:
+  port: 9500
+
